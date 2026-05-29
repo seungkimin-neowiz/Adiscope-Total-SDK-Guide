@@ -345,11 +345,12 @@ function matchesSearch(item, query) {
   )
 }
 
+const BASE = import.meta.env.BASE_URL
 const PLATFORM_ICONS = {
-  android:     { type: 'img', src: '/android.svg' },
-  ios:         { type: 'img', src: '/apple.svg' },
-  unity:       { type: 'img', src: '/unity.svg' },
-  flutter:     { type: 'img', src: '/flutter.svg' },
+  android:     { type: 'img', src: `${BASE}android.svg` },
+  ios:         { type: 'img', src: `${BASE}apple.svg` },
+  unity:       { type: 'img', src: `${BASE}unity.svg` },
+  flutter:     { type: 'img', src: `${BASE}flutter.svg` },
   reactnative: { type: 'emoji', char: '⚛️' },
   unreal:      { type: 'emoji', char: '🔵' },
 }

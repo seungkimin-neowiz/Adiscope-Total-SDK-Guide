@@ -8,7 +8,7 @@ export default function App() {
       <header className="app-header">
         <div className="app-header-inner">
           <div className="app-logo">
-            <img src="/logo.png" alt="Adiscope" className="app-logo-img" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Adiscope" className="app-logo-img" />
           </div>
           <div className="app-title-block">
             <h1 className="app-title">Help Center</h1>
