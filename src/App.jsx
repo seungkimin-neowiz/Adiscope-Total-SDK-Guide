@@ -1,4 +1,5 @@
 import DependencyConfigurator from './components/DependencyConfigurator'
+import Footer from './components/Footer'
 import { platforms } from './data/index'
 import './App.css'
 
@@ -29,6 +30,7 @@ export default function App() {
         </div>
         <DependencyConfigurator platforms={platforms} />
       </main>
+      <Footer />
     </div>
   )
 }
