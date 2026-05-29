@@ -1,0 +1,114 @@
+{
+  "id": "ios",
+  "label": "iOS",
+  "sdkVersions": [
+    { "id": "3.x", "label": "v3.x" },
+    { "id": "2.x", "label": "v2.x" }
+  ],
+  "sections": [
+    {
+      "id": "networks",
+      "label": "Ad Networks",
+      "items": [
+        {
+          "id": "admob",
+          "name": "AdMob",
+          "description": "Google AdMob",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "podfile": ["pod 'AdiscopeMediation/AdMob', '~> 3.1.0'"] },
+            { "id": "3.0.0", "label": "3.0.0", "podfile": ["pod 'AdiscopeMediation/AdMob', '~> 3.0.0'"] },
+            { "id": "2.5.0", "label": "2.5.0", "podfile": ["pod 'AdiscopeMediation/AdMob', '~> 2.5.0'"] }
+          ]
+        },
+        {
+          "id": "chartboost",
+          "name": "Chartboost",
+          "description": "Chartboost Mediation",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "podfile": ["pod 'AdiscopeMediation/Chartboost', '~> 3.1.0'"] },
+            { "id": "3.0.0", "label": "3.0.0", "podfile": ["pod 'AdiscopeMediation/Chartboost', '~> 3.0.0'"] },
+            { "id": "2.5.0", "label": "2.5.0", "podfile": ["pod 'AdiscopeMediation/Chartboost', '~> 2.5.0'"] }
+          ]
+        },
+        {
+          "id": "max",
+          "name": "MAX",
+          "description": "AppLovin MAX",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "podfile": ["pod 'AdiscopeMediation/MAX', '~> 3.1.0'"] },
+            { "id": "3.0.0", "label": "3.0.0", "podfile": ["pod 'AdiscopeMediation/MAX', '~> 3.0.0'"] },
+            { "id": "2.5.0", "label": "2.5.0", "podfile": ["pod 'AdiscopeMediation/MAX', '~> 2.5.0'"] }
+          ]
+        },
+        {
+          "id": "pangle",
+          "name": "Pangle",
+          "description": "TikTok for Business",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "podfile": ["pod 'AdiscopeMediation/Pangle', '~> 3.1.0'"] },
+            { "id": "3.0.0", "label": "3.0.0", "podfile": ["pod 'AdiscopeMediation/Pangle', '~> 3.0.0'"] },
+            { "id": "2.5.0", "label": "2.5.0", "podfile": ["pod 'AdiscopeMediation/Pangle', '~> 2.5.0'"] }
+          ]
+        },
+        {
+          "id": "vungle",
+          "name": "Vungle",
+          "description": "Liftoff Monetize",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "podfile": ["pod 'AdiscopeMediation/Vungle', '~> 3.1.0'"] },
+            { "id": "3.0.0", "label": "3.0.0", "podfile": ["pod 'AdiscopeMediation/Vungle', '~> 3.0.0'"] },
+            { "id": "2.5.0", "label": "2.5.0", "podfile": ["pod 'AdiscopeMediation/Vungle', '~> 2.5.0'"] }
+          ]
+        },
+        {
+          "id": "tnkpub",
+          "name": "TNKPub",
+          "description": "TNK Factory",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "podfile": ["pod 'AdiscopeMediation/TNKPub', '~> 3.1.0'"] },
+            { "id": "3.0.0", "label": "3.0.0", "podfile": ["pod 'AdiscopeMediation/TNKPub', '~> 3.0.0'"] },
+            { "id": "2.5.0", "label": "2.5.0", "podfile": ["pod 'AdiscopeMediation/TNKPub', '~> 2.5.0'"] }
+          ]
+        },
+        {
+          "id": "admanager",
+          "name": "AdManager",
+          "description": "Google Ad Manager",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "podfile": ["pod 'AdiscopeMediation/AdManager', '~> 3.1.0'"] },
+            { "id": "3.0.0", "label": "3.0.0", "podfile": ["pod 'AdiscopeMediation/AdManager', '~> 3.0.0'"] },
+            { "id": "2.5.0", "label": "2.5.0", "podfile": ["pod 'AdiscopeMediation/AdManager', '~> 2.5.0'"] }
+          ]
+        }
+      ]
+    }
+  ],
+  "codeConfig": {
+    "3.x": {
+      "blocks": [
+        {
+          "id": "podfile",
+          "title": "Podfile",
+          "language": "ruby",
+          "prefix": "target 'YourApp' do\n  use_frameworks!",
+          "linePrefix": "  ",
+          "suffix": "end",
+          "coreLines": ["pod 'Adiscope', '~> 3.1.0'"]
+        }
+      ]
+    },
+    "2.x": {
+      "blocks": [
+        {
+          "id": "podfile",
+          "title": "Podfile",
+          "language": "ruby",
+          "prefix": "target 'YourApp' do\n  use_frameworks!",
+          "linePrefix": "  ",
+          "suffix": "end",
+          "coreLines": ["pod 'Adiscope', '~> 2.5.0'"]
+        }
+      ]
+    }
+  }
+}

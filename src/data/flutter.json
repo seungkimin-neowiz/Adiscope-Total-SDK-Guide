@@ -1,0 +1,114 @@
+{
+  "id": "flutter",
+  "label": "Flutter",
+  "sdkVersions": [
+    { "id": "3.x", "label": "v3.x" },
+    { "id": "2.x", "label": "v2.x" }
+  ],
+  "sections": [
+    {
+      "id": "networks",
+      "label": "Ad Networks",
+      "items": [
+        {
+          "id": "admob",
+          "name": "AdMob",
+          "description": "Google AdMob",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "pubspec": ["adiscope_flutter_admob: ^3.1.0"] },
+            { "id": "3.0.0", "label": "3.0.0", "pubspec": ["adiscope_flutter_admob: ^3.0.0"] },
+            { "id": "2.5.0", "label": "2.5.0", "pubspec": ["adiscope_flutter_admob: ^2.5.0"] }
+          ]
+        },
+        {
+          "id": "chartboost",
+          "name": "Chartboost",
+          "description": "Chartboost Mediation",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "pubspec": ["adiscope_flutter_chartboost: ^3.1.0"] },
+            { "id": "3.0.0", "label": "3.0.0", "pubspec": ["adiscope_flutter_chartboost: ^3.0.0"] },
+            { "id": "2.5.0", "label": "2.5.0", "pubspec": ["adiscope_flutter_chartboost: ^2.5.0"] }
+          ]
+        },
+        {
+          "id": "max",
+          "name": "MAX",
+          "description": "AppLovin MAX",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "pubspec": ["adiscope_flutter_max: ^3.1.0"] },
+            { "id": "3.0.0", "label": "3.0.0", "pubspec": ["adiscope_flutter_max: ^3.0.0"] },
+            { "id": "2.5.0", "label": "2.5.0", "pubspec": ["adiscope_flutter_max: ^2.5.0"] }
+          ]
+        },
+        {
+          "id": "pangle",
+          "name": "Pangle",
+          "description": "TikTok for Business",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "pubspec": ["adiscope_flutter_pangle: ^3.1.0"] },
+            { "id": "3.0.0", "label": "3.0.0", "pubspec": ["adiscope_flutter_pangle: ^3.0.0"] },
+            { "id": "2.5.0", "label": "2.5.0", "pubspec": ["adiscope_flutter_pangle: ^2.5.0"] }
+          ]
+        },
+        {
+          "id": "vungle",
+          "name": "Vungle",
+          "description": "Liftoff Monetize",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "pubspec": ["adiscope_flutter_vungle: ^3.1.0"] },
+            { "id": "3.0.0", "label": "3.0.0", "pubspec": ["adiscope_flutter_vungle: ^3.0.0"] },
+            { "id": "2.5.0", "label": "2.5.0", "pubspec": ["adiscope_flutter_vungle: ^2.5.0"] }
+          ]
+        },
+        {
+          "id": "tnkpub",
+          "name": "TNKPub",
+          "description": "TNK Factory",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "pubspec": ["adiscope_flutter_tnkpub: ^3.1.0"] },
+            { "id": "3.0.0", "label": "3.0.0", "pubspec": ["adiscope_flutter_tnkpub: ^3.0.0"] },
+            { "id": "2.5.0", "label": "2.5.0", "pubspec": ["adiscope_flutter_tnkpub: ^2.5.0"] }
+          ]
+        },
+        {
+          "id": "admanager",
+          "name": "AdManager",
+          "description": "Google Ad Manager",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "pubspec": ["adiscope_flutter_admanager: ^3.1.0"] },
+            { "id": "3.0.0", "label": "3.0.0", "pubspec": ["adiscope_flutter_admanager: ^3.0.0"] },
+            { "id": "2.5.0", "label": "2.5.0", "pubspec": ["adiscope_flutter_admanager: ^2.5.0"] }
+          ]
+        }
+      ]
+    }
+  ],
+  "codeConfig": {
+    "3.x": {
+      "blocks": [
+        {
+          "id": "pubspec",
+          "title": "pubspec.yaml",
+          "language": "yaml",
+          "prefix": "dependencies:",
+          "linePrefix": "  ",
+          "suffix": "",
+          "coreLines": ["adiscope_flutter_plugin: ^3.1.0"]
+        }
+      ]
+    },
+    "2.x": {
+      "blocks": [
+        {
+          "id": "pubspec",
+          "title": "pubspec.yaml",
+          "language": "yaml",
+          "prefix": "dependencies:",
+          "linePrefix": "  ",
+          "suffix": "",
+          "coreLines": ["adiscope_flutter_plugin: ^2.5.0"]
+        }
+      ]
+    }
+  }
+}

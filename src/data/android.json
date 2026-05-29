@@ -1,0 +1,275 @@
+{
+  "id": "android",
+  "label": "Android",
+  "sdkVersions": [
+    { "id": "3.x", "label": "v3.x" },
+    { "id": "2.x", "label": "v2.x" },
+    { "id": "1.x", "label": "v1.x" }
+  ],
+  "sections": [
+    {
+      "id": "networks",
+      "label": "Ad Networks",
+      "items": [
+        {
+          "id": "admob",
+          "name": "AdMob",
+          "description": "Google AdMob",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-admob:3.1.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-admob:3.1.0'"] } },
+            { "id": "3.0.0", "label": "3.0.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-admob:3.0.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-admob:3.0.0'"] } },
+            { "id": "2.5.0", "label": "2.5.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-admob:2.5.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-admob:2.5.0'"] } }
+          ]
+        },
+        {
+          "id": "chartboost",
+          "name": "Chartboost",
+          "description": "Chartboost Mediation",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-chartboost:3.1.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-chartboost:3.1.0'"] } },
+            { "id": "3.0.0", "label": "3.0.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-chartboost:3.0.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-chartboost:3.0.0'"] } },
+            { "id": "2.5.0", "label": "2.5.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-chartboost:2.5.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-chartboost:2.5.0'"] } }
+          ]
+        },
+        {
+          "id": "max",
+          "name": "MAX",
+          "description": "AppLovin MAX",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-max:3.1.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-max:3.1.0'"] } },
+            { "id": "3.0.0", "label": "3.0.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-max:3.0.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-max:3.0.0'"] } },
+            { "id": "2.5.0", "label": "2.5.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-max:2.5.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-max:2.5.0'"] } }
+          ]
+        },
+        {
+          "id": "pangle",
+          "name": "Pangle",
+          "description": "TikTok for Business",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-pangle:3.1.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-pangle:3.1.0'"] } },
+            { "id": "3.0.0", "label": "3.0.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-pangle:3.0.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-pangle:3.0.0'"] } },
+            { "id": "2.5.0", "label": "2.5.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-pangle:2.5.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-pangle:2.5.0'"] } }
+          ]
+        },
+        {
+          "id": "vungle",
+          "name": "Vungle",
+          "description": "Liftoff Monetize",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-vungle:3.1.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-vungle:3.1.0'"] } },
+            { "id": "3.0.0", "label": "3.0.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-vungle:3.0.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-vungle:3.0.0'"] } },
+            { "id": "2.5.0", "label": "2.5.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-vungle:2.5.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-vungle:2.5.0'"] } }
+          ]
+        },
+        {
+          "id": "tnkpub",
+          "name": "TNKPub",
+          "description": "TNK Factory",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-tnkpub:3.1.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-tnkpub:3.1.0'"] } },
+            { "id": "3.0.0", "label": "3.0.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-tnkpub:3.0.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-tnkpub:3.0.0'"] } },
+            { "id": "2.5.0", "label": "2.5.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-tnkpub:2.5.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-tnkpub:2.5.0'"] } }
+          ]
+        },
+        {
+          "id": "admanager",
+          "name": "AdManager",
+          "description": "Google Ad Manager",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-admanager:3.1.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-admanager:3.1.0'"] } },
+            { "id": "3.0.0", "label": "3.0.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-admanager:3.0.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-admanager:3.0.0'"] } },
+            { "id": "2.5.0", "label": "2.5.0", "dependencies": { "kotlin": ["implementation(\"com.naver.ads:adiscope-mediation-admanager:2.5.0\")"], "groovy": ["implementation 'com.naver.ads:adiscope-mediation-admanager:2.5.0'"] } }
+          ]
+        }
+      ]
+    }
+  ],
+  "codeConfig": {
+    "3.x": {
+      "dslTabs": [
+        { "id": "kotlin", "label": "Kotlin DSL" },
+        { "id": "groovy", "label": "Groovy" }
+      ],
+      "blocks": [
+        {
+          "id": "repositories",
+          "variants": {
+            "kotlin": {
+              "title": "settings.gradle.kts",
+              "language": "kotlin",
+              "prefix": "dependencyResolutionManagement {\n    repositories {",
+              "linePrefix": "        ",
+              "suffix": "    }\n}",
+              "coreLines": [
+                "google()",
+                "mavenCentral()",
+                "maven { url = uri(\"https://naver.jfrog.io/artifactory/adiscope/\") }"
+              ]
+            },
+            "groovy": {
+              "title": "build.gradle (Project Level)",
+              "language": "groovy",
+              "prefix": "allprojects {\n    repositories {",
+              "linePrefix": "        ",
+              "suffix": "    }\n}",
+              "coreLines": [
+                "google()",
+                "mavenCentral()",
+                "maven { url 'https://naver.jfrog.io/artifactory/adiscope/' }"
+              ]
+            }
+          }
+        },
+        {
+          "id": "dependencies",
+          "variants": {
+            "kotlin": {
+              "title": "build.gradle.kts (App Module)",
+              "language": "kotlin",
+              "prefix": "dependencies {",
+              "linePrefix": "    ",
+              "suffix": "}",
+              "coreLines": [
+                "implementation(\"com.naver.ads:adiscope-android:3.1.0\")"
+              ]
+            },
+            "groovy": {
+              "title": "build.gradle (App Module)",
+              "language": "groovy",
+              "prefix": "dependencies {",
+              "linePrefix": "    ",
+              "suffix": "}",
+              "coreLines": [
+                "implementation 'com.naver.ads:adiscope-android:3.1.0'"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "2.x": {
+      "dslTabs": [
+        { "id": "kotlin", "label": "Kotlin DSL" },
+        { "id": "groovy", "label": "Groovy" }
+      ],
+      "blocks": [
+        {
+          "id": "repositories",
+          "variants": {
+            "kotlin": {
+              "title": "settings.gradle.kts",
+              "language": "kotlin",
+              "prefix": "dependencyResolutionManagement {\n    repositories {",
+              "linePrefix": "        ",
+              "suffix": "    }\n}",
+              "coreLines": [
+                "google()",
+                "mavenCentral()",
+                "maven { url = uri(\"https://naver.jfrog.io/artifactory/adiscope/\") }"
+              ]
+            },
+            "groovy": {
+              "title": "build.gradle (Project Level)",
+              "language": "groovy",
+              "prefix": "allprojects {\n    repositories {",
+              "linePrefix": "        ",
+              "suffix": "    }\n}",
+              "coreLines": [
+                "google()",
+                "mavenCentral()",
+                "maven { url 'https://naver.jfrog.io/artifactory/adiscope/' }"
+              ]
+            }
+          }
+        },
+        {
+          "id": "dependencies",
+          "variants": {
+            "kotlin": {
+              "title": "build.gradle.kts (App Module)",
+              "language": "kotlin",
+              "prefix": "dependencies {",
+              "linePrefix": "    ",
+              "suffix": "}",
+              "coreLines": [
+                "implementation(\"com.naver.ads:adiscope-android:2.5.0\")"
+              ]
+            },
+            "groovy": {
+              "title": "build.gradle (App Module)",
+              "language": "groovy",
+              "prefix": "dependencies {",
+              "linePrefix": "    ",
+              "suffix": "}",
+              "coreLines": [
+                "implementation 'com.naver.ads:adiscope-android:2.5.0'"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "1.x": {
+      "dslTabs": [
+        { "id": "kotlin", "label": "Kotlin DSL" },
+        { "id": "groovy", "label": "Groovy" }
+      ],
+      "blocks": [
+        {
+          "id": "repositories",
+          "variants": {
+            "kotlin": {
+              "title": "settings.gradle.kts",
+              "language": "kotlin",
+              "prefix": "dependencyResolutionManagement {\n    repositories {",
+              "linePrefix": "        ",
+              "suffix": "    }\n}",
+              "coreLines": [
+                "google()",
+                "mavenCentral()",
+                "maven { url = uri(\"https://naver.jfrog.io/artifactory/adiscope/\") }"
+              ]
+            },
+            "groovy": {
+              "title": "build.gradle (Project Level)",
+              "language": "groovy",
+              "prefix": "allprojects {\n    repositories {",
+              "linePrefix": "        ",
+              "suffix": "    }\n}",
+              "coreLines": [
+                "google()",
+                "mavenCentral()",
+                "maven { url 'https://naver.jfrog.io/artifactory/adiscope/' }"
+              ]
+            }
+          }
+        },
+        {
+          "id": "dependencies",
+          "variants": {
+            "kotlin": {
+              "title": "build.gradle.kts (App Module)",
+              "language": "kotlin",
+              "prefix": "dependencies {",
+              "linePrefix": "    ",
+              "suffix": "}",
+              "coreLines": [
+                "implementation(\"com.naver.ads:adiscope-android:1.x.x\")"
+              ]
+            },
+            "groovy": {
+              "title": "build.gradle (App Module)",
+              "language": "groovy",
+              "prefix": "dependencies {",
+              "linePrefix": "    ",
+              "suffix": "}",
+              "coreLines": [
+                "implementation 'com.naver.ads:adiscope-android:1.x.x'"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

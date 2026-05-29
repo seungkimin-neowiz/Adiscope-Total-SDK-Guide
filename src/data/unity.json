@@ -1,0 +1,114 @@
+{
+  "id": "unity",
+  "label": "Unity",
+  "sdkVersions": [
+    { "id": "3.x", "label": "v3.x" },
+    { "id": "2.x", "label": "v2.x" }
+  ],
+  "sections": [
+    {
+      "id": "networks",
+      "label": "Ad Networks",
+      "items": [
+        {
+          "id": "admob",
+          "name": "AdMob",
+          "description": "Google AdMob",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "manifest": ["\"com.naver.ads.adiscope-unity-admob\": \"https://github.com/naver/adiscope-unity-admob.git#3.1.0\""] },
+            { "id": "3.0.0", "label": "3.0.0", "manifest": ["\"com.naver.ads.adiscope-unity-admob\": \"https://github.com/naver/adiscope-unity-admob.git#3.0.0\""] },
+            { "id": "2.5.0", "label": "2.5.0", "manifest": ["\"com.naver.ads.adiscope-unity-admob\": \"https://github.com/naver/adiscope-unity-admob.git#2.5.0\""] }
+          ]
+        },
+        {
+          "id": "chartboost",
+          "name": "Chartboost",
+          "description": "Chartboost Mediation",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "manifest": ["\"com.naver.ads.adiscope-unity-chartboost\": \"https://github.com/naver/adiscope-unity-chartboost.git#3.1.0\""] },
+            { "id": "3.0.0", "label": "3.0.0", "manifest": ["\"com.naver.ads.adiscope-unity-chartboost\": \"https://github.com/naver/adiscope-unity-chartboost.git#3.0.0\""] },
+            { "id": "2.5.0", "label": "2.5.0", "manifest": ["\"com.naver.ads.adiscope-unity-chartboost\": \"https://github.com/naver/adiscope-unity-chartboost.git#2.5.0\""] }
+          ]
+        },
+        {
+          "id": "max",
+          "name": "MAX",
+          "description": "AppLovin MAX",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "manifest": ["\"com.naver.ads.adiscope-unity-max\": \"https://github.com/naver/adiscope-unity-max.git#3.1.0\""] },
+            { "id": "3.0.0", "label": "3.0.0", "manifest": ["\"com.naver.ads.adiscope-unity-max\": \"https://github.com/naver/adiscope-unity-max.git#3.0.0\""] },
+            { "id": "2.5.0", "label": "2.5.0", "manifest": ["\"com.naver.ads.adiscope-unity-max\": \"https://github.com/naver/adiscope-unity-max.git#2.5.0\""] }
+          ]
+        },
+        {
+          "id": "pangle",
+          "name": "Pangle",
+          "description": "TikTok for Business",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "manifest": ["\"com.naver.ads.adiscope-unity-pangle\": \"https://github.com/naver/adiscope-unity-pangle.git#3.1.0\""] },
+            { "id": "3.0.0", "label": "3.0.0", "manifest": ["\"com.naver.ads.adiscope-unity-pangle\": \"https://github.com/naver/adiscope-unity-pangle.git#3.0.0\""] },
+            { "id": "2.5.0", "label": "2.5.0", "manifest": ["\"com.naver.ads.adiscope-unity-pangle\": \"https://github.com/naver/adiscope-unity-pangle.git#2.5.0\""] }
+          ]
+        },
+        {
+          "id": "vungle",
+          "name": "Vungle",
+          "description": "Liftoff Monetize",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "manifest": ["\"com.naver.ads.adiscope-unity-vungle\": \"https://github.com/naver/adiscope-unity-vungle.git#3.1.0\""] },
+            { "id": "3.0.0", "label": "3.0.0", "manifest": ["\"com.naver.ads.adiscope-unity-vungle\": \"https://github.com/naver/adiscope-unity-vungle.git#3.0.0\""] },
+            { "id": "2.5.0", "label": "2.5.0", "manifest": ["\"com.naver.ads.adiscope-unity-vungle\": \"https://github.com/naver/adiscope-unity-vungle.git#2.5.0\""] }
+          ]
+        },
+        {
+          "id": "tnkpub",
+          "name": "TNKPub",
+          "description": "TNK Factory",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "manifest": ["\"com.naver.ads.adiscope-unity-tnkpub\": \"https://github.com/naver/adiscope-unity-tnkpub.git#3.1.0\""] },
+            { "id": "3.0.0", "label": "3.0.0", "manifest": ["\"com.naver.ads.adiscope-unity-tnkpub\": \"https://github.com/naver/adiscope-unity-tnkpub.git#3.0.0\""] },
+            { "id": "2.5.0", "label": "2.5.0", "manifest": ["\"com.naver.ads.adiscope-unity-tnkpub\": \"https://github.com/naver/adiscope-unity-tnkpub.git#2.5.0\""] }
+          ]
+        },
+        {
+          "id": "admanager",
+          "name": "AdManager",
+          "description": "Google Ad Manager",
+          "versions": [
+            { "id": "3.1.0", "label": "3.1.0", "manifest": ["\"com.naver.ads.adiscope-unity-admanager\": \"https://github.com/naver/adiscope-unity-admanager.git#3.1.0\""] },
+            { "id": "3.0.0", "label": "3.0.0", "manifest": ["\"com.naver.ads.adiscope-unity-admanager\": \"https://github.com/naver/adiscope-unity-admanager.git#3.0.0\""] },
+            { "id": "2.5.0", "label": "2.5.0", "manifest": ["\"com.naver.ads.adiscope-unity-admanager\": \"https://github.com/naver/adiscope-unity-admanager.git#2.5.0\""] }
+          ]
+        }
+      ]
+    }
+  ],
+  "codeConfig": {
+    "3.x": {
+      "blocks": [
+        {
+          "id": "manifest",
+          "title": "Packages/manifest.json",
+          "language": "json",
+          "prefix": "{\n  \"dependencies\": {",
+          "linePrefix": "    ",
+          "suffix": "  }\n}",
+          "coreLines": ["\"com.naver.ads.adiscope-unity\": \"https://github.com/naver/adiscope-unity.git#3.1.0\""]
+        }
+      ]
+    },
+    "2.x": {
+      "blocks": [
+        {
+          "id": "manifest",
+          "title": "Packages/manifest.json",
+          "language": "json",
+          "prefix": "{\n  \"dependencies\": {",
+          "linePrefix": "    ",
+          "suffix": "  }\n}",
+          "coreLines": ["\"com.naver.ads.adiscope-unity\": \"https://github.com/naver/adiscope-unity.git#2.5.0\""]
+        }
+      ]
+    }
+  }
+}

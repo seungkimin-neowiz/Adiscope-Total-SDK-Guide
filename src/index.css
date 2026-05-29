@@ -1,0 +1,49 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-primary: #0068C9;
+  --color-primary-light: #E8F2FF;
+  --color-primary-dark: #0052A0;
+  --color-bg: #F5F7FA;
+  --color-surface: #FFFFFF;
+  --color-border: #E1E4E8;
+  --color-text: #1A1D21;
+  --color-text-muted: #6B7280;
+  --color-selected-bg: #E8F2FF;
+  --color-selected-border: #0068C9;
+  --color-code-bg: #0D1117;
+  --color-code-text: #C9D1D9;
+  --color-success: #1A7F37;
+  --color-success-bg: #DAFBE1;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.10);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+body {
+  background: var(--color-bg);
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  background: none;
+}
+
+code, pre {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace;
+}
